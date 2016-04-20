@@ -1,0 +1,31 @@
+Exercise 1:
+
+Request:
+GET /api/contact HTTP/1.1
+Host: localhost:49382
+Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.112 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: hr-HR,hr;q=0.8,en-US;q=0.6,en;q=0.4
+
+Response:
+HTTP/1.1 200 OK
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/xml; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.0
+X-AspNet-Version: 4.0.30319
+X-SourceFiles: =?UTF-8?B?QzpcVXNlcnNcU3R1ZGVudFxEb2N1bWVudHNcVmlzdWFsIFN0dWRpbyAyMDEzXFByb2plY3RzXFJVQVAtTFYyXENvbnRhY3RNYW5hZ2VyXGFwaVxjb250YWN0?=
+X-Powered-By: ASP.NET
+Date: Wed, 20 Apr 2016 10:43:24 GMT
+Content-Length: 258
+
+Response Body:
+[{"Id":1,"Name":"Glenn Block"},{"Id":2,"Name":"Dan Roth"}]
+
+
+
